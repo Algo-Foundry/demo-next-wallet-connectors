@@ -9,10 +9,10 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
-"@blockshake/defly-connect@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@blockshake/defly-connect/-/defly-connect-1.1.2.tgz#7935883f77527cdb022fc4a87bb29bee686f11f7"
-  integrity sha512-64plibtIAlVmRsLsc7xvQEeYWmABgbd5+RpebS+f0/Uqo5anFYHFtvoaAmSdnfwcD27M+DsIjHRS2mpAxs6e+w==
+"@blockshake/defly-connect@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@blockshake/defly-connect/-/defly-connect-1.1.5.tgz#a8821b2b4ccd4c9591261c98effdd3ab969e0c5e"
+  integrity sha512-IV9h1MHYnzxxsuH3dSG7hFhMhkCaZM1zJl2CDcbiiM8yZ3S5r8vclF6SnxiUgK710+pNk4ZERPpS9WaUuFr+oQ==
   dependencies:
     "@walletconnect/client" "^1.8.0"
     "@walletconnect/types" "^1.8.0"
@@ -224,10 +224,10 @@
   resolved "https://registry.yarnpkg.com/@pedrouid/environment/-/environment-1.0.1.tgz#858f0f8a057340e0b250398b75ead77d6f4342ec"
   integrity sha512-HaW78NszGzRZd9SeoI3JD11JqY+lubnaOx7Pewj5pfjqWXOEATpeKIFb9Z4t2WBUK2iryiXX3lzWwmYWgUL0Ug==
 
-"@perawallet/connect@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@perawallet/connect/-/connect-1.2.3.tgz#99b3d5e9e86aa593f9d069d079a26160f4b63bf9"
-  integrity sha512-v+RJRvLG/3cOTHESX4ibxxRqkU/dh4PnU7Np0q5i8sXtsFUIwSbOAQ8ija3WB3LWcY1Ue1/24jH3qLM4hKHBMw==
+"@perawallet/connect@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@perawallet/connect/-/connect-1.3.1.tgz#3ba7ced7ed1ba99b42ef7fd90306bfd2e9503c77"
+  integrity sha512-392Hi/Oqgb05AvBFCJLcoideZ9zEboqIGBjMllG/qn+TMjKyJi1bwdqHTL7sOvzeOjq1ULJJ/0NN0y5+wdIcOQ==
   dependencies:
     "@evanhahn/lottie-web-light" "5.8.1"
     "@walletconnect/client" "^1.8.0"
@@ -279,13 +279,13 @@
   dependencies:
     mini-svg-data-uri "^1.2.3"
 
-"@txnlab/use-wallet@^1.2.11":
-  version "1.2.11"
-  resolved "https://registry.yarnpkg.com/@txnlab/use-wallet/-/use-wallet-1.2.11.tgz#b7b5d0e455f84e4cb23e0e568ea6d5be28dd491e"
-  integrity sha512-5lrbuPHS2siAw8paC1IrFFwQVlpt11I10JfOy9ebBqz/8Gv6NgQoV1o/YbKwaA6gJ3ILg1c2TCkbBKZhKRYYyQ==
+"@txnlab/use-wallet@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@txnlab/use-wallet/-/use-wallet-2.0.0.tgz#8559be0a0c3075e6d6552268641d2189f5cc0661"
+  integrity sha512-VJ47JT+s6VYAv1rCYYmFv/DrQd+KXDn0IAWvUkBiMVQniYoxt/XrfN8vZ1xnrsF7sVlZpDFPbQiK4TCrmTjncQ==
   dependencies:
     immer "^9.0.15"
-    zustand "^4.1.4"
+    zustand "^4.3.8"
 
 "@types/json5@^0.0.29":
   version "0.0.29"
@@ -3105,9 +3105,9 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zustand@^4.1.4:
-  version "4.3.7"
-  resolved "https://registry.yarnpkg.com/zustand/-/zustand-4.3.7.tgz#501b1f0393a7f1d103332e45ab574be5747fedce"
-  integrity sha512-dY8ERwB9Nd21ellgkBZFhudER8KVlelZm8388B5nDAXhO/+FZDhYMuRnqDgu5SYyRgz/iaf8RKnbUs/cHfOGlQ==
+zustand@^4.3.8:
+  version "4.3.9"
+  resolved "https://registry.yarnpkg.com/zustand/-/zustand-4.3.9.tgz#a7d4332bbd75dfd25c6848180b3df1407217f2ad"
+  integrity sha512-Tat5r8jOMG1Vcsj8uldMyqYKC5IZvQif8zetmLHs9WoZlntTHmIoNM8TpLRY31ExncuUvUOXehd0kvahkuHjDw==
   dependencies:
     use-sync-external-store "1.2.0"
