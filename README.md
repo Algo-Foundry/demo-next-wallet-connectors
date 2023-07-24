@@ -3,8 +3,7 @@ This demo showcases the available wallet connectors for Algorand Dapps. They inc
 
 1. [Pera Algo Wallet](https://github.com/perawallet/connect)
 2. [Defly Wallet](https://github.com/blockshake-io/defly-connect)
-3. [Walletconnect](https://developer.algorand.org/docs/get-details/walletconnect/)
-4. Sandbox (kmd)
+3. Sandbox (kmd)
 
 It uses the [use-wallet](https://github.com/TxnLab/use-wallet) library, which is a react hook that includes the above wallets. 
 
